@@ -47,6 +47,15 @@ I installed hashcat and perfomed tests with it based on source materials.
 
 ### d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
+I tried to do this according to instructions
+![image](https://github.com/user-attachments/assets/adba5996-6240-4227-a9a2-cb6278e19e0e)
+
+but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash.
+![VirtualBox_DebianHeidi_08_11_2024_23_21_49](https://github.com/user-attachments/assets/d3a7ca8a-b390-4ce5-a2c6-8ef7e8ab7627)
+![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)
+
+
+
 ### e) How can you make a password that's protected against a dictionary attack?
 
 ### Feedback
