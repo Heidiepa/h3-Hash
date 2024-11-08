@@ -1,1 +1,54 @@
 # h3-Hash
+
+
+## € Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: subchapters "2.3 One-way Fuctions" and "2.4 One-Way Hash Functions".
+
+* The goal of cryptography is solve problems that can be caused by issues with authentication, lack of integrity, and dishonest people. Within this goal, there are definied protocols, e.g, series of steps that are used to guideline certain order of tasks.
+* One-way function is a vital part of these protocols. One-way funtion, according to it's name, goes from one way to another without returning back. It is like me going to Japan for holiday and never coming back (ideal). One-way functions are not very good for encryption as there is no way to return it.
+* One-way hash function is another part of protocols and a major part of modern cyrptography. It has many names of which I will not type in here.  Hash function takes input string of varying lengh and magically turns it fixed lenght output string. Hashing is the one-way act of converting the data (called a message) into the output (called the hash). Security-wise hash function is not secure. It is a public funtion and its secureness lies in the fact there is only one way to move. It is impossible to find the input data by checking output.
+
+## Karvinen 2022: Cracking Passwords with Hashcat
+
+* Article describes how to crack passwords with hashcat
+* When trying to open the hash, it is important to know what type of hash is being opened. This can be done through comparison
+* Opening the hash can be even faster with normal computer and it's local operating system. Virtual machine uses limited amount of GPU and with normal set-up, one gains speed boost.
+
+## Voluntary bonus article: Karvinen 2020: Command Line Basics Revisited
+
+* Article describes basic functions of Linux command line and basic commands.
+* This extra action for those who are not confident with systems used and langugage spoken.
+* Tested few functions 
+![VirtualBox_DebianHeidi_08_11_2024_22_51_40](https://github.com/user-attachments/assets/42c8cd79-d310-4d7a-93e8-57f942ff3cd0)
+
+
+
+
+
+
+
+
+##  Santos et al 2017: Security Penetration Testing - The Art of Hacking Series LiveLessons: Lesson 6: Hacking User Credentials (8 videos, about 30 min)
+
+
+### a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
+
+
+### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
+
+
+
+### c) Hashcat. Install hashcat and test that it works.
+
+
+### d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+
+### e) How can you make a password that's protected against a dictionary attack?
+
+### Feedback
+
+Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2. 
+
+### References
+https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
+
+
