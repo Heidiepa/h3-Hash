@@ -27,12 +27,6 @@
 ![VirtualBox_DebianHeidi_08_11_2024_22_51_40](https://github.com/user-attachments/assets/42c8cd79-d310-4d7a-93e8-57f942ff3cd0)
 
 
-
-
-
-
-
-
 ##  Santos et al 2017: Security Penetration Testing - The Art of Hacking Series LiveLessons: Lesson 6: Hacking User Credentials (8 videos, about 30 min)
 
 
@@ -52,7 +46,7 @@
 
 ### Feedback
 
-Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2. 
+Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2. This homework took around 6 hours to complete.
 
 ### References
 https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
