@@ -32,6 +32,9 @@
 
 ### a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
 
+I was unfrotunately abel to get any results of this task. I tried writing in instructed command but it did not yield any results.
+![VirtualBox_DebianHeidi_08_11_2024_23_58_59](https://github.com/user-attachments/assets/c637a747-dbba-42dc-ae84-f49e1882dbbb)
+
 
 ### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
@@ -50,7 +53,7 @@ I installed hashcat and perfomed tests with it based on source materials.
 I tried to do this according to instructions
 ![image](https://github.com/user-attachments/assets/adba5996-6240-4227-a9a2-cb6278e19e0e)
 
-but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash.
+but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash. SWhould I have started this whole things again or what is the issue?
 ![VirtualBox_DebianHeidi_08_11_2024_23_21_49](https://github.com/user-attachments/assets/d3a7ca8a-b390-4ce5-a2c6-8ef7e8ab7627)
 ![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)
 
@@ -60,7 +63,7 @@ but was not able to crack the hash. Got the same error multiple times. There som
 
 ### Feedback
 
-Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2. This homework took around 6 hours to complete.
+Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2 and it is a relief.
 
 ### References
 https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
