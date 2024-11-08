@@ -13,11 +13,17 @@
 * When trying to open the hash, it is important to know what type of hash is being opened. This can be done through comparison
 * Opening the hash can be even faster with normal computer and it's local operating system. Virtual machine uses limited amount of GPU and with normal set-up, one gains speed boost.
 
+* ![VirtualBox_DebianHeidi_08_11_2024_23_11_28](https://github.com/user-attachments/assets/946294b5-fa62-4df7-9c2e-26ffe2c33192)
+* ![VirtualBox_DebianHeidi_08_11_2024_23_11_44](https://github.com/user-attachments/assets/aae6ed3f-f9a2-4f49-a153-f061c6adf052)
+
+*Notes: It would be good if the instructions would state how to add the password: It did not seem to work for me until I googled and got the information that console does not show that you are typing in the password and you just need to know to type it and press enter. This is not clear to everyone but could be made more clear.
+
+
 ## Voluntary bonus article: Karvinen 2020: Command Line Basics Revisited
 
 * Article describes basic functions of Linux command line and basic commands.
 * This extra action for those who are not confident with systems used and langugage spoken.
-* Tested few functions 
+* Tested few functions, worked OK albeit some challenges with screenshotting and keyboard combinations. What do you mean that ctrl+c/v does not work in this kind of command line?
 ![VirtualBox_DebianHeidi_08_11_2024_22_51_40](https://github.com/user-attachments/assets/42c8cd79-d310-4d7a-93e8-57f942ff3cd0)
 
 
