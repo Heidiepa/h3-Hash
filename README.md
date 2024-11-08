@@ -39,6 +39,11 @@
 
 ### c) Hashcat. Install hashcat and test that it works.
 
+I installed hashcat and perfomed tests with it based on source materials.
+![VirtualBox_DebianHeidi_08_11_2024_23_17_49](https://github.com/user-attachments/assets/dc5b75a9-e9cb-4dc3-84f3-73e682d49087)
+
+![VirtualBox_DebianHeidi_08_11_2024_23_18_12](https://github.com/user-attachments/assets/e83c9926-c9e1-4209-b816-03ae1176729f)
+
 
 ### d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
