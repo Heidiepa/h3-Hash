@@ -32,9 +32,10 @@
 
 ### a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
 
-I was unfrotunately abel to get any results of this task. I tried writing in instructed command but it did not yield any results.
-![VirtualBox_DebianHeidi_08_11_2024_23_58_59](https://github.com/user-attachments/assets/c637a747-dbba-42dc-ae84-f49e1882dbbb)
+I was unfortunately not able to get any results of this task. I tried writing in instructed command but it did not yield any results.
+![VirtualBox_DebianHeidi_09_11_2024_00_00_42](https://github.com/user-attachments/assets/feb6f019-7aee-4ecd-8f81-189a1390ff3e)
 
+´With horrible success in the the task, I did not attempt the second task (also crashed my virtual machine twice and had start from beginning.)
 
 ### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
