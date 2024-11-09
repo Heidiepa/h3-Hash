@@ -1,4 +1,4 @@
-![VirtualBox_DebianHeidi_09_11_2024_09_44_51](https://github.com/user-attachments/assets/5c2d764d-4f77-47d4-9c4d-929a62422c6c)# h3-Hash
+# h3-Hash
 
 
 ## € Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: subchapters "2.3 One-way Fuctions" and "2.4 One-Way Hash Functions".
@@ -27,9 +27,6 @@
 ![VirtualBox_DebianHeidi_08_11_2024_22_51_40](https://github.com/user-attachments/assets/42c8cd79-d310-4d7a-93e8-57f942ff3cd0)
 
 
-##  Santos et al 2017: Security Penetration Testing - The Art of Hacking Series LiveLessons: Lesson 6: Hacking User Credentials (8 videos, about 30 min)
-
-
 ### a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
 
 I was unfortunately not able to get any results of this task. I tried writing in instructed command multiple times but it did not yield any results. I only got error "command not found"
@@ -47,7 +44,9 @@ If I can guess, I think it relates to hashrate Bitcoin has. Hashrate is a securi
 
 ### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
+I don't understand waht should be done it here. Should I have crated a small text file in where? Inside my virtual machine? And should I still have the github link library on to do this? Or should I have restarted the whole terminal?
 
+Even if I don't know what to do, I expect that changing hash a by one letter will change the values as well. Some of the information will stay as it is though. And changing more letters will change the values more?
 
 ### c) Hashcat. Install hashcat and test that it works.
 
@@ -66,10 +65,6 @@ but was not able to crack the hash. Got the same error multiple times. There som
 ![VirtualBox_DebianHeidi_08_11_2024_23_21_49](https://github.com/user-attachments/assets/d3a7ca8a-b390-4ce5-a2c6-8ef7e8ab7627)
 ![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)'
 ![VirtualBox_DebianHeidi_09_11_2024_09_38_03](https://github.com/user-attachments/assets/1bcfb716-1b50-4799-8e32-cf06ac711f06)
-
-
-
-
 
 ### e) How can you make a password that's protected against a dictionary attack?
 
