@@ -34,7 +34,7 @@ I was unfortunately not able to get any results of this task. I tried writing in
 ![VirtualBox_DebianHeidi_09_11_2024_00_00_42](https://github.com/user-attachments/assets/feb6f019-7aee-4ecd-8f81-189a1390ff3e)
 ![VirtualBox_DebianHeidi_09_11_2024_09_44_51](https://github.com/user-attachments/assets/c87b8579-9445-49ed-a6be-e5b13400c318)
 
-With horrible success in the the task, I did try the second task expecting failure and that is what is got! Again, "command not found"
+With lack of success in the the task, I did try the second task expecting failure and that is what is got! Again, "command not found"
 ![VirtualBox_DebianHeidi_09_11_2024_09_50_01](https://github.com/user-attachments/assets/f368e62a-4097-4837-a137-59ce9f4712ea)
 
 I don't know what to add to get hash that starts with zero.
