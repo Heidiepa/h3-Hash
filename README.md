@@ -44,13 +44,13 @@ If I can guess, I think it relates to hashrate Bitcoin has. Hashrate is a securi
 
 ### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
-I don't understand waht should be done it here. Should I have crated a small text file in where? Inside my virtual machine? And should I still have the github link library on to do this? Or should I have restarted the whole terminal?
+I again unfortunately did not understand what should be done here. Should I have created a small text file in where? Inside my virtual machine? And should I still have the github link library on to do this? Or should I have restarted the whole terminal?
 
-Even if I don't know what to do, I expect that changing hash a by one letter will change the values as well. Some of the information will stay as it is though. And changing more letters will change the values more?
+Even if I don't know what to do, I expect that changing hash a by one letter will change the values as well. Some of the information will stay as it is though based on the reading material we had for this homework. And changing more letters will change the values more?
 
 ### c) Hashcat. Install hashcat and test that it works.
 
-I installed hashcat and perfomed tests with it based on source materials. BGot it working through basic information.
+I installed hashcat and perfomed tests with it based on source materials. Got it working through basic information.
 ![VirtualBox_DebianHeidi_08_11_2024_23_17_49](https://github.com/user-attachments/assets/dc5b75a9-e9cb-4dc3-84f3-73e682d49087)
 
 ![VirtualBox_DebianHeidi_08_11_2024_23_18_12](https://github.com/user-attachments/assets/e83c9926-c9e1-4209-b816-03ae1176729f)
@@ -62,17 +62,27 @@ I tried to do this according to instructions (changing value to be hashed)
 ![image](https://github.com/user-attachments/assets/adba5996-6240-4227-a9a2-cb6278e19e0e)
 
 but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash. I attempted this multiple times during the day and night (also restarted the hashing three times) and always got the same result. I expect something to be wrong but I don't know how to resolve this.
+
 ![VirtualBox_DebianHeidi_08_11_2024_23_21_49](https://github.com/user-attachments/assets/d3a7ca8a-b390-4ce5-a2c6-8ef7e8ab7627)
 ![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)'
 ![VirtualBox_DebianHeidi_09_11_2024_09_38_03](https://github.com/user-attachments/assets/1bcfb716-1b50-4799-8e32-cf06ac711f06)
 
 ### e) How can you make a password that's protected against a dictionary attack?
 
+* Dictionary attack are cyberattacks that use lon word lists and software to access to an account. Surin dictionary attack, attacker will compare words from the list with possible account password and tried to open the account. During dictionary attack, not all parts of password need to be solved: if one work on the list matches with the genuine password, the account can be thought to be compromised. (McKay)
+* The longer the password is, the more difficult it is to open during a dictionary attack. 5-letter password is easy to open, 8 letter more difficul and 13 letter is getting on the impossible tier. This is why organiasations enfoce longer that 8 letter passwords in many security features.(McKay)
+* Password sharing is also a bad idea because the more you use same password for different systems, the easier it is to break. On similar vein, using similar passwords but with small variation in many services also is a threat because dictionary attacks will try multiple combinations and if one password is known, it is easier to attempt possible variations. (McKay)
+* Best kid of passwrod for dictionary attack is single-use passwords that have more than 8 upper and lowercase charactes, special characters and numbers and can be a combination of sentence like ReD9Car&DrivingRoad. Using non English words also makes it more difficult to open these passwords such as Mummoni+OranssiVaatekaappi2Juoksee. Thsi password would by the way take this long to resolve accoridng to this website:
+* ![image](https://github.com/user-attachments/assets/342017f6-e216-491c-9998-e7b3919f31db)
+
+
 ### Feedback
 
-Thank you for listening to our comments on the amount feedback. I was not borderline crying with stress this time like I was during homework 2 and it is a relief.
+Thank you for listening to our comments on the amount feedback.
 
 ### References
+
+McKay, D. 25 October 2023. How to Protect Against Password Dictionary Attacks
 https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
 
 Bitcoin. Hashrate.
