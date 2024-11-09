@@ -16,7 +16,7 @@
 * ![VirtualBox_DebianHeidi_08_11_2024_23_11_28](https://github.com/user-attachments/assets/946294b5-fa62-4df7-9c2e-26ffe2c33192)
 * ![VirtualBox_DebianHeidi_08_11_2024_23_11_44](https://github.com/user-attachments/assets/aae6ed3f-f9a2-4f49-a153-f061c6adf052)
 
-*Notes: It would be good if the instructions would state how to add the password: It did not seem to work for me until I googled and got the information that console does not show that you are typing in the password and you just need to know to type it and press enter. This is not clear to everyone but could be made more clear.
+*** Notes:** It would be good if the instructions would state how to add the password: It did not seem to work for me until I googled and got the information that console does not show that you are typing in the password and you just need to know to type it and press enter. This is not clear to everyone but could be made more clear.
 
 
 ## Voluntary bonus article: Karvinen 2020: Command Line Basics Revisited
