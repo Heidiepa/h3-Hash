@@ -85,7 +85,8 @@ Thank you for listening to our comments on the amount feedback.
 McKay, D. 25 October 2023. How to Protect Against Password Dictionary Attacks
 https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
 
-Bitcoin. Hashrate.
-Mining hashrate is a key security metric. The more hashing (computing) power in the network, the greater its security and its overall resistance to attack.
+Blockchain. Hashrate.
+https://www.blockchain.com/explorer/charts/hash-rate 
+
 
 
