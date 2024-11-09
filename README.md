@@ -3,9 +3,9 @@
 
 ## € Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: subchapters "2.3 One-way Fuctions" and "2.4 One-Way Hash Functions".
 
-* The goal of cryptography is solve problems that can be caused by issues with authentication, lack of integrity, and dishonest people. Within this goal, there are definied protocols, e.g, series of steps that are used to guideline certain order of tasks.
-* One-way function is a vital part of these protocols. One-way funtion, according to it's name, goes from one way to another without returning back. It is like me going to Japan for holiday and never coming back (ideal). One-way functions are not very good for encryption as there is no way to return it.
-* One-way hash function is another part of protocols and a major part of modern cyrptography. It has many names of which I will not type in here.  Hash function takes input string of varying lengh and magically turns it fixed lenght output string. Hashing is the one-way act of converting the data (called a message) into the output (called the hash). Security-wise hash function is not secure. It is a public funtion and its secureness lies in the fact there is only one way to move. It is impossible to find the input data by checking output.
+* The goal of cryptography is solve problems that can be caused by issues with authentication, lack of integrity, and dishonest people. Within this goal, there are defined protocols, e.g, series of steps that are used to guideline certain order of tasks. The goal is to solve problem, as stated.
+* One-way function is a vital part of these protocols It is not a protocol but a part of it. One-way funtion, according to it's name, goes from one way to another without returning back. It is like me going to Japan for holiday and never coming back (ideal). One-way functions are not very good for encryption as there is no way to return it.
+* One-way hash function is another part of protocols and a major part of modern cyrptography.Hash function takes input string of varying lengh and magically turns it fixed lenght output string. Hashing is the one-way act of converting the data (called a message) into the output (called the hash). Security-wise hash function is not secure. It is a public funtion and its secureness lies in the fact there is only one way to move. It is impossible to find the input data by checking output.
 
 ## Karvinen 2022: Cracking Passwords with Hashcat
 
@@ -16,7 +16,7 @@
 * ![VirtualBox_DebianHeidi_08_11_2024_23_11_28](https://github.com/user-attachments/assets/946294b5-fa62-4df7-9c2e-26ffe2c33192)
 * ![VirtualBox_DebianHeidi_08_11_2024_23_11_44](https://github.com/user-attachments/assets/aae6ed3f-f9a2-4f49-a153-f061c6adf052)
 
-*** Notes:** It would be good if the instructions would state how to add the password: It did not seem to work for me until I googled and got the information that console does not show that you are typing in the password and you just need to know to type it and press enter. This is not clear to everyone but could be made more clear.
+**Notes:** It would be good if the instructions would state how to add the password: It did not seem to work for me until I Googled and got the information that console does not show that you are typing in the password and you just need to know to type it and press enter. This might not clear to everyone but easy nudge could help.
 
 
 ## Voluntary bonus article: Karvinen 2020: Command Line Basics Revisited
@@ -34,7 +34,7 @@ I was unfortunately not able to get any results of this task. I tried writing in
 ![VirtualBox_DebianHeidi_09_11_2024_00_00_42](https://github.com/user-attachments/assets/feb6f019-7aee-4ecd-8f81-189a1390ff3e)
 ![VirtualBox_DebianHeidi_09_11_2024_09_44_51](https://github.com/user-attachments/assets/c87b8579-9445-49ed-a6be-e5b13400c318)
 
-With lack of success in the the task, I did try the second task expecting failure and that is what is got! Again, "command not found"
+With lack of success in the the task, I did try the second task expecting failure and that is what is got. Again, "command not found"
 ![VirtualBox_DebianHeidi_09_11_2024_09_50_01](https://github.com/user-attachments/assets/f368e62a-4097-4837-a137-59ce9f4712ea)
 
 I don't know what to add to get hash that starts with zero.
@@ -46,7 +46,7 @@ If I can guess, I think it relates to hashrate Bitcoin has. Hashrate is a securi
 
 I again unfortunately did not understand what should be done here. Should I have created a small text file in where? Inside my virtual machine? And should I still have the github link library on to do this? Or should I have restarted the whole terminal?
 
-Even if I don't know what to do, I expect that changing hash a by one letter will change the values as well. Some of the information will stay as it is though based on the reading material we had for this homework. And changing more letters will change the values more?
+Even if I don't know what to do, I expect that changing hash a by one letter will change the values as well. Some of the information will stay as it is though based on the reading material we had for this homework. And changing more letters will likely change the values more?
 
 ### c) Hashcat. Install hashcat and test that it works.
 
