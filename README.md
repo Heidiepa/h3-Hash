@@ -1,4 +1,4 @@
-# h3-Hash
+![VirtualBox_DebianHeidi_09_11_2024_09_44_51](https://github.com/user-attachments/assets/5c2d764d-4f77-47d4-9c4d-929a62422c6c)# h3-Hash
 
 
 ## € Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: subchapters "2.3 One-way Fuctions" and "2.4 One-Way Hash Functions".
@@ -32,10 +32,18 @@
 
 ### a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
 
-I was unfortunately not able to get any results of this task. I tried writing in instructed command but it did not yield any results.
-![VirtualBox_DebianHeidi_09_11_2024_00_00_42](https://github.com/user-attachments/assets/feb6f019-7aee-4ecd-8f81-189a1390ff3e)
+I was unfortunately not able to get any results of this task. I tried writing in instructed command multiple times but it did not yield any results. I only got error "command not found"
 
-´With horrible success in the the task, I did not attempt the second task (also crashed my virtual machine twice and had start from beginning.)
+![VirtualBox_DebianHeidi_09_11_2024_00_00_42](https://github.com/user-attachments/assets/feb6f019-7aee-4ecd-8f81-189a1390ff3e)
+![VirtualBox_DebianHeidi_09_11_2024_09_44_51](https://github.com/user-attachments/assets/c87b8579-9445-49ed-a6be-e5b13400c318)
+
+With horrible success in the the task, I did try the second task expecting failure and that is what is got! Again, "command not found"
+![VirtualBox_DebianHeidi_09_11_2024_09_50_01](https://github.com/user-attachments/assets/f368e62a-4097-4837-a137-59ce9f4712ea)
+
+I don't know what to add to get hash that starts with zero.
+
+#### Voluntary bonus: How is this related to Bitcoin?
+If I can guess, I think it relates to hashrate Bitcoin has. Hashrate is a securitey measurement in Bitcoin. The more there is power, the more secure Bitcoin is to attacks. Xurrent hashrate is around 750-780 TH/s. (Bitcoin)
 
 ### b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
@@ -43,7 +51,7 @@ I was unfortunately not able to get any results of this task. I tried writing in
 
 ### c) Hashcat. Install hashcat and test that it works.
 
-I installed hashcat and perfomed tests with it based on source materials.
+I installed hashcat and perfomed tests with it based on source materials. BGot it working through basic information.
 ![VirtualBox_DebianHeidi_08_11_2024_23_17_49](https://github.com/user-attachments/assets/dc5b75a9-e9cb-4dc3-84f3-73e682d49087)
 
 ![VirtualBox_DebianHeidi_08_11_2024_23_18_12](https://github.com/user-attachments/assets/e83c9926-c9e1-4209-b816-03ae1176729f)
@@ -51,12 +59,15 @@ I installed hashcat and perfomed tests with it based on source materials.
 
 ### d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
-I tried to do this according to instructions
+I tried to do this according to instructions (changing value to be hashed)
 ![image](https://github.com/user-attachments/assets/adba5996-6240-4227-a9a2-cb6278e19e0e)
 
-but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash. SWhould I have started this whole things again or what is the issue?
+but was not able to crack the hash. Got the same error multiple times. There something wrong with my hash. I attempted this multiple times during the day and night (also restarted the hashing three times) and always got the same result. I expect something to be wrong but I don't know how to resolve this.
 ![VirtualBox_DebianHeidi_08_11_2024_23_21_49](https://github.com/user-attachments/assets/d3a7ca8a-b390-4ce5-a2c6-8ef7e8ab7627)
-![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)
+![VirtualBox_DebianHeidi_08_11_2024_23_25_56](https://github.com/user-attachments/assets/113289df-2078-4c11-a94e-2dedf7f32ba6)'
+![VirtualBox_DebianHeidi_09_11_2024_09_38_03](https://github.com/user-attachments/assets/1bcfb716-1b50-4799-8e32-cf06ac711f06)
+
+
 
 
 
@@ -68,5 +79,8 @@ Thank you for listening to our comments on the amount feedback. I was not border
 
 ### References
 https://www.howtogeek.com/devops/how-to-protect-your-organization-against-password-dictionary-attacks/
+
+Bitcoin. Hashrate.
+Mining hashrate is a key security metric. The more hashing (computing) power in the network, the greater its security and its overall resistance to attack.
 
 
